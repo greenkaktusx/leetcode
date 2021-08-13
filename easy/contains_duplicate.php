@@ -7,12 +7,14 @@
  * and return false if every element is distinct.
  */
 
-class Solution {
+class Solution
+{
     /**
      * @param Integer[] $nums
      * @return Boolean
      */
-    function containsDuplicate($nums) {
+    function containsDuplicate($nums)
+    {
         $checkNums = [];
 
         foreach ($nums as $num) {
