@@ -26,3 +26,9 @@ class Solution {
         return false;
     }
 }
+
+$solution = new Solution();
+
+$nums = [1, 2, 3, 1];
+
+echo $solution->containsDuplicate($nums);
